@@ -15,7 +15,8 @@ sudo chmod a+x /usr/bin/consul
 
 echo "###########################Downloading Bioflows###########################"
 
-curl -O http://bioflows.github.io/bin/bf
+curl -O http://bioflows.github.io/bin/bf.zip
+unzip bf.zip
 sudo mv bf /usr/bin
 sudo chmod a+x /usr/bin/bf
 
