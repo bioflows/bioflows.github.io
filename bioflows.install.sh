@@ -13,7 +13,7 @@ echo "Unzipping consul"
 unzip consul_1.8.4_linux_amd64.zip
 sudo mv consul /usr/bin
 sudo chmod a+x /usr/bin/consul
-
+sudo apt-get install graphviz
 echo "###########################Downloading Bioflows###########################"
 
 curl -OL http://bioflows.github.io/bin/bf.zip
