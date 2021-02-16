@@ -16,7 +16,7 @@ sudo chmod a+x /usr/bin/consul
 sudo apt-get install graphviz
 echo "###########################Downloading Bioflows###########################"
 
-curl -OL https://github.com/mfawzysami/bioflows/raw/0.0.3a/release/bf.zip
+curl -OL https://github.com/mfawzysami/bioflows/raw/0.0.2a/release/bf.zip
 unzip bf.zip
 sudo mv bf /usr/bin
 sudo chmod a+x /usr/bin/bf
